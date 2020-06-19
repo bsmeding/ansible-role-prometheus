@@ -56,7 +56,7 @@
 
 - name: prometheus | docker-python
   become: true
-  yum:
+  package:
     name: docker-python
     state: present
 
